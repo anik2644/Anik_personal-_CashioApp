@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.effect.BoxBlur?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" styleClass="black_pane" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirst.UserSelectionController">
+   <children>
+      <ImageView fitHeight="230.0" fitWidth="248.0" layoutX="926.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/grid.jpg" />
+         </image>
+         <effect>
+            <BoxBlur />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="230.0" fitWidth="248.0" layoutX="222.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/grid.jpg" />
+         </image>
+         <effect>
+            <BoxBlur />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="230.0" fitWidth="248.0" layoutX="561.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/grid.jpg" />
+         </image>
+         <effect>
+            <BoxBlur />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="63.0" fitWidth="183.0" layoutX="622.0" layoutY="601.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="184.0" layoutX="248.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/avatar.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="137.0" fitWidth="184.0" layoutX="587.0" layoutY="186.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/avatar.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="145.0" fitWidth="148.0" layoutX="974.0" layoutY="178.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/ava.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="263.0" layoutY="396.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="154.0" text="Anik">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="608.0" layoutY="396.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="154.0" text="Setu">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="967.0" layoutY="396.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="154.0" text="Fahim">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <PasswordField layoutX="411.0" layoutY="502.0" prefHeight="56.0" prefWidth="258.0" promptText="  Enter Password" />
+      <Button layoutX="762.0" layoutY="502.0" mnemonicParsing="false" onAction="#switchToCashierDashboard" prefHeight="56.0" prefWidth="154.0" text="Log In" />
+      <Button layoutX="1023.0" layoutY="502.0" mnemonicParsing="false" onAction="#backbuttonpressed" prefHeight="56.0" prefWidth="138.0" text="Back" />
+   </children>
+</AnchorPane>

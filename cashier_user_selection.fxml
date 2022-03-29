@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirst.UserSelectionController">
+   <children>
+      <AnchorPane prefHeight="800.0" prefWidth="564.0" styleClass="white_pane" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ImageView fitHeight="800.0" fitWidth="1199.0" layoutY="-47.0" pickOnBounds="true" AnchorPane.leftAnchor="0.0">
+               <image>
+                  <Image url="@img/squre3d.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="422.0" fitWidth="459.0" layoutX="62.0" layoutY="132.0" pickOnBounds="true">
+               <image>
+                  <Image url="@img/gray.png" />
+               </image>
+               <effect>
+                  <DropShadow height="56.58" radius="46.322500000000005" spread="0.24" width="130.71" />
+               </effect>
+            </ImageView>
+            <Button layoutX="222.0" layoutY="604.0" mnemonicParsing="false" onAction="#backbuttonpressed" prefHeight="59.0" prefWidth="139.0" text="BACK">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <effect>
+                  <DropShadow height="88.95" radius="52.932500000000005" spread="0.58" width="124.78" />
+               </effect>
+            </Button>
+            <PasswordField layoutX="143.0" layoutY="322.0" prefHeight="65.0" prefWidth="297.0" promptText="  Enter Password" />
+            <Button layoutX="217.0" layoutY="475.0" mnemonicParsing="false" onAction="#switchToCashierDashboard" prefHeight="56.0" prefWidth="154.0" text="Log In" />
+            <TextField layoutX="143.0" layoutY="238.0" prefHeight="65.0" prefWidth="297.0" promptText="  User Name" />
+            <Label layoutX="145.0" layoutY="174.0" prefHeight="38.0" prefWidth="148.0" text="Total Sell Today:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField layoutX="294.0" layoutY="175.0" prefHeight="38.0" prefWidth="139.0" promptText="In total" />
+            <Button layoutX="145.0" layoutY="399.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="193.0" text="Forgotten Password?" />
+            <ImageView fitHeight="85.0" fitWidth="229.0" layoutX="192.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/logo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="-7.0" prefHeight="810.0" prefWidth="834.0" styleClass="black_pane" stylesheets="@style.css" AnchorPane.leftAnchor="556.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <ImageView fitHeight="123.0" fitWidth="121.0" layoutX="165.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/avatar1.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="123.0" fitWidth="121.0" layoutX="165.0" layoutY="425.0" pickOnBounds="true">
+               <image>
+                  <Image url="@img/Avatar2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="116.0" fitWidth="114.0" layoutX="169.0" layoutY="246.0" pickOnBounds="true">
+               <image>
+                  <Image url="@img/avatar4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="291.0" layoutX="383.0" layoutY="643.0" pickOnBounds="true">
+               <image>
+                  <Image url="@img/Poweredby.png" />
+               </image>
+            </ImageView>
+            <Button layoutX="404.0" layoutY="90.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="168.0" text="Anik">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <effect>
+                  <DropShadow height="106.87" radius="57.4125" spread="0.58" width="124.78">
+                     <color>
+                        <Color red="0.1184210553765297" green="0.11513157933950424" blue="0.11513157933950424" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button layoutX="404.0" layoutY="261.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="168.0" text="User">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <effect>
+                  <DropShadow height="106.87" radius="57.4125" spread="0.58" width="124.78">
+                     <color>
+                        <Color red="0.1184210553765297" green="0.11513157933950424" blue="0.11513157933950424" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+            <Button layoutX="404.0" layoutY="444.0" mnemonicParsing="false" prefHeight="85.0" prefWidth="168.0" text="User">
+               <font>
+                  <Font size="22.0" />
+               </font>
+               <effect>
+                  <DropShadow height="115.83" radius="59.6525" spread="0.25" width="124.78">
+                     <color>
+                        <Color red="0.1184210553765297" green="0.11513157933950424" blue="0.11513157933950424" />
+                     </color>
+                  </DropShadow>
+               </effect>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
